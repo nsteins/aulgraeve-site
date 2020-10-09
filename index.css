@@ -57,9 +57,7 @@
 .content {
     width: 80%;
     margin: auto;
-    padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 100px 50px;
     max-width: 600px;
     
     font-family: raleway,helvetica neue,helvetica,arial,sans-serif;
