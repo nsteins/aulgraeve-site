@@ -1,0 +1,93 @@
+.header {
+    width: 100%;
+    height: 1000px;
+    background-image: url('assets/crow.gif');
+    background-repeat: no-repeat;
+    background-attachment: scroll;  
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 1.5fr 1fr  1fr 1.5fr;
+    margin: 0px;
+}
+
+.tagline {
+    text-align: right;
+    grid-column: 4;
+    grid-row: 2;
+
+    align-items: end;
+
+}
+
+.button {
+    justify-self: end;
+    align-self: center;
+    background-color: #0a0a0a;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    
+    grid-column: 4;
+    grid-row: 3;
+
+    font-family: raleway,helvetica neue,helvetica,arial,sans-serif;
+    font-weight: 300;
+    line-height: 150%;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+
+
+.section {
+    width: 100%;
+    min-height: 1000px;
+    background-image: url('assets/smoke.gif');
+    background-repeat: no-repeat;
+    background-attachment: scroll;  
+    background-size: cover;
+    margin: 0px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 600px;
+    
+    font-family: raleway,helvetica neue,helvetica,arial,sans-serif;
+    font-weight: 300;
+    line-height: 150%;
+    font-size: 24px;
+    color: #FFFFFF;
+
+    background-color: rgba(10,10,10,0.6);
+}
+
+.filler {
+    font-weight: 100;
+}
+
+
+.signup-form {
+    max-width: 600px;
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family: playfair display,georgia,times new roman,serif;
+    font-weight: normal;
+    font-size: 45px;
+}
