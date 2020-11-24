@@ -54,6 +54,16 @@
     margin: 0px;
 }
 
+.how-to {
+    width: 100%;
+    min-height: 1000px;
+    background-image: url('assets/fire.gif');
+    background-repeat: no-repeat;
+    background-attachment: scroll;  
+    background-size: cover;
+    margin: 0px;
+}
+
 .content {
     width: 80%;
     margin: auto;
