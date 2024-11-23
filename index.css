@@ -92,10 +92,24 @@
 
 body {
     margin: 0px;
+    background-color: rgba(0, 0, 0, 0.945);
 }
 
 h1 {
     font-family: playfair display,georgia,times new roman,serif;
     font-weight: normal;
     font-size: 45px;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60;
+}
+
+iframe {
+    display: block;
+    border-style:none;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 768px;
+    height: 432px;
 }
