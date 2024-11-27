@@ -68,7 +68,7 @@
     width: 80%;
     margin: auto;
     padding: 100px 50px;
-    max-width: 600px;
+    /* max-width: 600px; */
     
     font-family: raleway,helvetica neue,helvetica,arial,sans-serif;
     font-weight: 300;
@@ -83,6 +83,10 @@
     font-weight: 100;
 }
 
+a:link, a:visited{
+    color: #FFFFFF;
+    font-weight: 300;
+}
 
 .signup-form {
     max-width: 600px;
